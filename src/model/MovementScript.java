@@ -124,8 +124,8 @@ public class MovementScript {
 	private void findTouchingPlatforms() {
 		Platform[][] surroundings = new Platform[3][3];
 		
-		double playerCenterX = character.getxPos() + Platform.NORMAL_PLATFORM_SIZE/2;
-		double playerCenterY = character.getyPos() + Platform.NORMAL_PLATFORM_SIZE/2;
+		double playerCenterX = character.getxPos() + Platform.NORMAL_PLATFORM_SIZE/2.0;
+		double playerCenterY = character.getyPos() + Platform.NORMAL_PLATFORM_SIZE/2.0;
 		
 		int centerPlatformRow = (int) (playerCenterY/Platform.NORMAL_PLATFORM_SIZE);
 		int centerPlatformCol = (int) (playerCenterX/Platform.NORMAL_PLATFORM_SIZE);
