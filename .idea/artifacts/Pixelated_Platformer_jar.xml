@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Pixelated Platformer:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Pixelated_Platformer_jar</output-path>
+    <root id="archive" name="Pixelated Platformer.jar">
+      <element id="module-output" name="Pixelated Platformer" />
+    </root>
+  </artifact>
+</component>

@@ -90,7 +90,7 @@ public class MovementScript {
 		character.changeYby(-1);
 		
 		
-		if (xVel < 1 && xVel > -1 && !(character.getKeysPressed().isLeftPressed() ^ character.getKeysPressed().isRightPressed())) {
+		if (xVel < 1 && xVel > -1 && character.getKeysPressed().isLeftPressed() == character.getKeysPressed().isRightPressed()) {
 			character.setCostume(GameCharacter.LOOKING_FORWARD);
 		}
 		
